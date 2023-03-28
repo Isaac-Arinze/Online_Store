@@ -32,9 +32,8 @@
           if ("done".equals(msg))
           {
       %>
-   
-<h1>Password Changed Successfully!</h1>
-      <% } %>
+    <h1>Password Changed Successfully!</h1>
+      <%} %>
       <%
         if("invalid".equals(msg))
         {

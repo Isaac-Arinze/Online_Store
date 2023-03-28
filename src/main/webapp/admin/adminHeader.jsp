@@ -1,6 +1,4 @@
-<%@ page errorPage="error.jsp" %>
-
-
+<%@page errorPage="error.jsp" %>
 
 <!DOCTYPE html>
 <html>

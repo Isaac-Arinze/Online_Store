@@ -19,7 +19,6 @@
   </div>
   <div class='whysignLogin'>
 
-
       <%
           String msg = request.getParameter("msg");
           if ("notexist".equals(msg))
@@ -27,7 +26,7 @@
       %>
   <h1>Incorrect Username or Password</h1>
       <%} %>
-      <%if ("invalid".equals(msg))
+      <%if("invalid".equals(msg))
       {%>
 
 <h1>Some thing Went Wrong! Try Again !</h1>
